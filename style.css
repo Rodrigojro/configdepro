@@ -1,12 +1,44 @@
-#cabeca_pages{
-background-color: blue;
-align-items: center;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
+.cabeca_pages {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
 
+nav {
+    position: relative;
+    top: 10px;
+    right: 0;
+}
 
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
 
-ul{
-    font-family: sans-serif;
-    list-style-type: none;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+form {
+    color: black;
+}
+
+.first_box {
+    background-color: red;
+    position: relative;
+
+}
+
+h1 {
+    position: relative;
+    align-items: center;
 }
